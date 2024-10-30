@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Acorn
+  - Galactic Acorn
+  - Portal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2792074519
+    locked: 0
+  - name: Mid Ground
+    uniqueID: 3407674491
+    locked: 0
+  - name: Ground
+    uniqueID: 2311090059
+    locked: 0
+  - name: Platforms
+    uniqueID: 2721223567
+    locked: 0
+  - name: UI
+    uniqueID: 2580325831
+    locked: 0
+  - name: Character & Items
+    uniqueID: 2293787983
+    locked: 0
+  - name: Fore Ground
+    uniqueID: 3023545023
+    locked: 0
