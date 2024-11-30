@@ -7,15 +7,19 @@ TagManager:
   - Acorn
   - Galactic Acorn
   - Portal
+  - Acid
+  - Golden Acorn
+  - Sign
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Grabbable
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Weapon
   - 
   - 
   - 
@@ -56,12 +60,15 @@ TagManager:
   - name: Platforms
     uniqueID: 2721223567
     locked: 0
-  - name: UI
-    uniqueID: 2580325831
+  - name: Grabbable
+    uniqueID: 2276207101
     locked: 0
   - name: Character & Items
     uniqueID: 2293787983
     locked: 0
   - name: Fore Ground
     uniqueID: 3023545023
+    locked: 0
+  - name: UI
+    uniqueID: 2580325831
     locked: 0
