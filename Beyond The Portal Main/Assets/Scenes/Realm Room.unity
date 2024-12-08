@@ -316,6 +316,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Level 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1983877237
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -632,6 +640,14 @@ PrefabInstance:
     - target: {fileID: 3040081273864029664, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
       propertyPath: m_Name
       value: Portal Level 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1983877237
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1862,6 +1878,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Ending
       objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1983877237
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2906,6 +2930,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1983877237
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3683,6 +3715,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Level 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1983877237
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3797,6 +3837,14 @@ PrefabInstance:
     - target: {fileID: 3040081273864029664, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
       propertyPath: m_Name
       value: Portal Level 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254059527839143236, guid: dd72ebfbc97f19748a764e354f613746, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1983877237
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

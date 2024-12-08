@@ -45,4 +45,11 @@ public class Portal : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.red;
         GetComponent<Collider2D>().enabled = false;
     }
+
+    // Resets a portal
+    public void ResetPortal(){
+        isVisited = false;
+        GetComponent<SpriteRenderer>().color = Color.white;
+        GetComponent<Collider2D>().enabled = true;
+    }
 }

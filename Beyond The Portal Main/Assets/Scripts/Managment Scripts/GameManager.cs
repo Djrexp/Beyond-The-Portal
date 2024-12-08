@@ -38,6 +38,15 @@ public class GameManager : MonoBehaviour
         return visitedRealms.Contains(realmName);
     }
 
+    // Resets the realms
+    public void ResetRealms(){
+        visitedRealms.Clear();
+        Portal[] portals = FindObjectsOfType<Portal>();
+        foreach (Portal portal in portals){
+            portal.ResetPortal();
+        }
+    }
+
     // Loads a scene by name
     public void LoadScene(string sceneName){
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);

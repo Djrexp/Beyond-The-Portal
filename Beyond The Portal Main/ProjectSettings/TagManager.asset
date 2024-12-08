@@ -67,11 +67,11 @@ TagManager:
   - name: Platforms
     uniqueID: 2721223567
     locked: 0
-  - name: Grabbable
-    uniqueID: 2276207101
-    locked: 0
   - name: Acorns
     uniqueID: 2194155049
+    locked: 0
+  - name: Grabbable
+    uniqueID: 2276207101
     locked: 0
   - name: Character & Items
     uniqueID: 2293787983

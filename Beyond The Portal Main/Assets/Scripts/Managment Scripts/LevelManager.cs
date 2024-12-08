@@ -18,7 +18,8 @@ public class LevelManager : MonoBehaviour
     // Resets game to play again skipping the tutorial
     public void PlayAgain(){
         Time.timeScale = 1;
-        GameManager.instance.LoadScene("Realm Room");
+        GameManager.instance.ResetRealms();
         GameManager.instance.ResetGameStats();
+        GameManager.instance.LoadScene("Start");
     }
 }

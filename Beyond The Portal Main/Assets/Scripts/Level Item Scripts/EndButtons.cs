@@ -8,6 +8,7 @@ public class EndButtons : MonoBehaviour
     public void PlayAgain(){
         Time.timeScale = 1;
         GameManager.instance.ResetGameStats();
+        GameManager.instance.ResetRealms();
         GameManager.instance.LoadScene("Start");
     }
 
@@ -15,6 +16,7 @@ public class EndButtons : MonoBehaviour
     public void Quit(){
         Time.timeScale = 1;
         GameManager.instance.ResetGameStats();
+        GameManager.instance.ResetRealms();
         GameManager.instance.LoadScene("Main Menu");
     }
 }

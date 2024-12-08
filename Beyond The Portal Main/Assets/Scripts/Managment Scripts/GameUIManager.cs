@@ -98,6 +98,7 @@ public class GameUIManager : MonoBehaviour
     // Quits game play to home scene/main menu
     public void Quit(){
         Time.timeScale = 1;
+        GameManager.instance.ResetRealms();
         SceneManager.LoadScene("Main Menu");
     }
 }

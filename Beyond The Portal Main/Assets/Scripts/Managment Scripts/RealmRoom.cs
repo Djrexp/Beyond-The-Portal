@@ -56,4 +56,19 @@ public class RealmRoom : MonoBehaviour
             if (textElement != null) textElement.gameObject.SetActive(false);
         }
     }
+
+    // Resets all portals in the realm room
+    public void ResetAllPortals(){
+        GameManager.instance.ResetRealms();
+
+        Portal[] portalsInScene = FindObjectsOfType<Portal>();
+        foreach (Portal portal in portalsInScene){
+            portal.ResetPortal();
+        }
+
+        if (endPortal != null) endPortal.SetActive(false);
+        if (endPortalText != null) endPortalText.gameObject.SetActive(false);
+        if (endingText != null) endingText.gameObject.SetActive(false);
+        if (startText != null) startText.gameObject.SetActive(true);
+    }
 }
