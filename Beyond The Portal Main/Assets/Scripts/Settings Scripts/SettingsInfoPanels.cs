@@ -20,6 +20,7 @@ public class InfoPanels : MonoBehaviour
         InitializeSettingsInfo();
     }
 
+    //Initializes all pannels to the correct information
     private void InitializeSettingsInfo(){
         settingsInfo = new Dictionary<CanvasGroup, (string, string)>{
             { highlightPanels[0], ("Master Volume", "Set volume for all sound.") },
@@ -33,6 +34,7 @@ public class InfoPanels : MonoBehaviour
         }
     }
 
+    //Shows the information of a panel when hovered over
     public void ShowHoverInfo(CanvasGroup panel){
         ClearHoverInfo();
         if (settingsInfo.ContainsKey(panel)){
@@ -42,6 +44,7 @@ public class InfoPanels : MonoBehaviour
         }
     }
 
+    //Clears info section when panel is not hovered over
     public void ClearHoverInfo(){
         titleText.text = "";
         descriptionText.text = "";
@@ -51,6 +54,7 @@ public class InfoPanels : MonoBehaviour
         }
     }
 
+    //Used to set alpha/transparency of the panels
     private void SetPanelAlpha(CanvasGroup panel, float alpha){
         panel.alpha = alpha;
     }

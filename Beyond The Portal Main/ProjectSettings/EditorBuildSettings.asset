@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: bd0b424807124894ba087f4a6a4f87bb
+  - enabled: 1
+    path: Assets/Scenes/Realm Room.unity
+    guid: 470ab64f5eba3ad4998aa881f2153b45
   m_configObjects: {}

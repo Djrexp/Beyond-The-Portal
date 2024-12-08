@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007796721096262210}
   - component: {fileID: 3388126517109205015}
+  - component: {fileID: -391442930623289196}
   m_Layer: 0
   m_Name: Sign Collection
   m_TagString: Sign
@@ -170,6 +171,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-391442930623289196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3349818722255277636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976ff1bf7fb6aea43a555cd10e6d548b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGalacticAcornCollected: 0
+  sign: {fileID: 0}
 --- !u!1 &3480190498512255880
 GameObject:
   m_ObjectHideFlags: 0

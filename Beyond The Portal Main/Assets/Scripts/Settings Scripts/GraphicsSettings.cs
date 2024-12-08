@@ -14,6 +14,7 @@ public class GraphicsSettings : MonoBehaviour
         InitializeResolutionDropdown();
     }
 
+    //Sets up drop down resolutions
     private void InitializeResolutionDropdown(){
         availableResolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
@@ -37,11 +38,13 @@ public class GraphicsSettings : MonoBehaviour
         resolutionDropdown.onValueChanged.AddListener(SetResolution);
     }
 
+    //Sets resolutions
     private void SetResolution(int index){
         Resolution resolution = availableResolutions[index];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
+    //Resets graphics to default value
     public void ResetGraphicsToDefault(){
         resolutionDropdown.value = 0;
         resolutionDropdown.RefreshShownValue();
